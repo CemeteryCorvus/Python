@@ -3,7 +3,7 @@ from pytube.exceptions import RegexMatchError
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re,os
-#https://www.youtube.com/watch?v=-V0wIUQsFC8
+
 def process_bar(stream = None, chunk = None, file_handle = None, remaining = None):
 	i = int((file_size - remaining) / file_size * 10)
 	percent = (file_size - remaining) / file_size * 100
